@@ -19,7 +19,7 @@ FEATURES = [
     'Location_Location3.csv', 'Location_Location4.csv'
 ]
 
-st.title("🌬️ Wind Power Generation Predictor")
+st.title("🍃 Wind Power Generation Predictor")
 st.markdown("Predict power output using a **Random Forest** model — R² = **0.6752**")
 st.divider()
 
