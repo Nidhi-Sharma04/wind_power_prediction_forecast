@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-st.set_page_config(page_title="Wind Power Predictor", page_icon="🌬️", layout="wide")
+st.set_page_config(page_title="Wind Power Predictor", page_icon="🍃", layout="wide")
 
 @st.cache_resource
 def load_model():
