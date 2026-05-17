@@ -33,7 +33,7 @@ temperature = st.sidebar.slider("Temperature (2m) °C",    0.0, 45.0, 28.5, 0.1)
 humidity    = st.sidebar.slider("Relative Humidity (%)",    0,  100,   85)
 dewpoint    = st.sidebar.slider("Dew Point (2m) °C",      0.0, 40.0, 24.5, 0.1)
 
-st.sidebar.subheader("💨 Wind Conditions")
+st.sidebar.subheader(" Wind Conditions")
 windspeed_10  = st.sidebar.slider("Wind Speed 10m (km/h)",   0.0, 50.0,  5.0, 0.1)
 windspeed_100 = st.sidebar.slider("Wind Speed 100m (km/h)",  0.0, 80.0,  8.0, 0.1)
 winddir_10    = st.sidebar.slider("Wind Direction 10m (°)",    0,  360,  180)
